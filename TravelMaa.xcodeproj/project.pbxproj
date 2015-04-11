@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		45D61A2E1AD9052300A6E0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A2D1AD9052300A6E0C9 /* AppDelegate.swift */; };
-		45D61A301AD9052300A6E0C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A2F1AD9052300A6E0C9 /* FirstViewController.swift */; };
-		45D61A321AD9052300A6E0C9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A311AD9052300A6E0C9 /* SecondViewController.swift */; };
+		45D61A301AD9052300A6E0C9 /* YourJourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A2F1AD9052300A6E0C9 /* YourJourneyViewController.swift */; };
+		45D61A321AD9052300A6E0C9 /* YourSuitcaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A311AD9052300A6E0C9 /* YourSuitcaseViewController.swift */; };
 		45D61A351AD9052300A6E0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D61A331AD9052300A6E0C9 /* Main.storyboard */; };
 		45D61A371AD9052300A6E0C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D61A361AD9052300A6E0C9 /* Images.xcassets */; };
 		45D61A3A1AD9052300A6E0C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D61A381AD9052300A6E0C9 /* LaunchScreen.xib */; };
@@ -30,8 +30,8 @@
 		45D61A281AD9052200A6E0C9 /* TravelMaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D61A2C1AD9052300A6E0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45D61A2D1AD9052300A6E0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45D61A2F1AD9052300A6E0C9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		45D61A311AD9052300A6E0C9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		45D61A2F1AD9052300A6E0C9 /* YourJourneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourJourneyViewController.swift; sourceTree = "<group>"; };
+		45D61A311AD9052300A6E0C9 /* YourSuitcaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourSuitcaseViewController.swift; sourceTree = "<group>"; };
 		45D61A341AD9052300A6E0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45D61A361AD9052300A6E0C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		45D61A391AD9052300A6E0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				45D61A2D1AD9052300A6E0C9 /* AppDelegate.swift */,
-				45D61A2F1AD9052300A6E0C9 /* FirstViewController.swift */,
-				45D61A311AD9052300A6E0C9 /* SecondViewController.swift */,
+				45D61A2F1AD9052300A6E0C9 /* YourJourneyViewController.swift */,
+				45D61A311AD9052300A6E0C9 /* YourSuitcaseViewController.swift */,
 				45D61A331AD9052300A6E0C9 /* Main.storyboard */,
 				45D61A361AD9052300A6E0C9 /* Images.xcassets */,
 				45D61A381AD9052300A6E0C9 /* LaunchScreen.xib */,
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D61A321AD9052300A6E0C9 /* SecondViewController.swift in Sources */,
+				45D61A321AD9052300A6E0C9 /* YourSuitcaseViewController.swift in Sources */,
 				45D61A2E1AD9052300A6E0C9 /* AppDelegate.swift in Sources */,
-				45D61A301AD9052300A6E0C9 /* FirstViewController.swift in Sources */,
+				45D61A301AD9052300A6E0C9 /* YourJourneyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +409,7 @@
 				45D61A4B1AD9052300A6E0C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45D61A4C1AD9052300A6E0C9 /* Build configuration list for PBXNativeTarget "TravelMaaTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				45D61A4E1AD9052300A6E0C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
