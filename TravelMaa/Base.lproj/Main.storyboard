@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Main Suitcase-->
@@ -734,6 +734,9 @@
                                                 <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="sz6-sl-xbe">
                                                     <rect key="frame" x="218" y="6" width="94" height="29"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <connections>
+                                                        <action selector="BusinessStepper:" destination="iJ0-ao-lZM" eventType="valueChanged" id="bNe-Pv-MQD"/>
+                                                    </connections>
                                                 </stepper>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Yd-E2-TtF">
                                                     <rect key="frame" x="96" y="10" width="91" height="21"/>
@@ -767,6 +770,9 @@
                                                 <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="6yw-Lx-0Ih">
                                                     <rect key="frame" x="218" y="6" width="94" height="29"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <connections>
+                                                        <action selector="SocialStepper:" destination="iJ0-ao-lZM" eventType="valueChanged" id="8os-zC-rjn"/>
+                                                    </connections>
                                                 </stepper>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -837,11 +843,25 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="NextPressedSaveData:" destination="iJ0-ao-lZM" eventType="touchUpInside" id="Y8v-pB-buH"/>
                                     <segue destination="XFa-rY-cge" kind="push" id="fm2-L3-v8n"/>
                                 </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="ArrivalFeild" destination="EG7-0k-vvd" id="x9F-nL-3Au"/>
+                        <outlet property="BusinessEvents" destination="0Yd-E2-TtF" id="Cdv-MC-1RH"/>
+                        <outlet property="BusinessStepperOutlet" destination="sz6-sl-xbe" id="iSW-FI-ofE"/>
+                        <outlet property="DepartureFeild" destination="GS7-Q7-16Q" id="qJl-PF-VsA"/>
+                        <outlet property="EndDateFeild" destination="Cdb-u7-9l5" id="Kbr-Q8-Fv0"/>
+                        <outlet property="LocationFeild" destination="1GU-Dd-8a1" id="fSs-gK-TTo"/>
+                        <outlet property="SocialEvents" destination="2di-Wo-skD" id="dir-a0-01w"/>
+                        <outlet property="SocialStepperOutlet" destination="6yw-Lx-0Ih" id="rtk-eq-JQI"/>
+                        <outlet property="StartDateFeild" destination="sBD-4q-c3o" id="iTE-KL-q3u"/>
+                        <outlet property="TravelModeFeild" destination="AO3-2v-KXn" id="bIp-pU-sUS"/>
+                        <outlet property="TripNameFeild" destination="ctT-ee-aCg" id="6Yc-We-BR4"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VLa-WZ-ER0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
