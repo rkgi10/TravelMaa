@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3CB89B381AD9E2C500FA7B51 /* PurposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B371AD9E2C500FA7B51 /* PurposeViewController.swift */; };
 		3CB89B3A1AD9FB6700FA7B51 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */; };
+		3CB89B3E1ADA184900FA7B51 /* SuitcaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B3D1ADA184900FA7B51 /* SuitcaseTableViewController.swift */; };
+		3CB89B401ADA187600FA7B51 /* HandbagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B3F1ADA187600FA7B51 /* HandbagTableViewController.swift */; };
 		45D61A2E1AD9052300A6E0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A2D1AD9052300A6E0C9 /* AppDelegate.swift */; };
 		45D61A301AD9052300A6E0C9 /* YourJourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A2F1AD9052300A6E0C9 /* YourJourneyViewController.swift */; };
 		45D61A321AD9052300A6E0C9 /* YourSuitcaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A311AD9052300A6E0C9 /* YourSuitcaseViewController.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		3CB89B371AD9E2C500FA7B51 /* PurposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurposeViewController.swift; sourceTree = "<group>"; };
 		3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		3CB89B3D1ADA184900FA7B51 /* SuitcaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuitcaseTableViewController.swift; sourceTree = "<group>"; };
+		3CB89B3F1ADA187600FA7B51 /* HandbagTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandbagTableViewController.swift; sourceTree = "<group>"; };
 		45D61A281AD9052200A6E0C9 /* TravelMaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D61A2C1AD9052300A6E0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45D61A2D1AD9052300A6E0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 				45D61A2B1AD9052300A6E0C9 /* Supporting Files */,
 				3CB89B371AD9E2C500FA7B51 /* PurposeViewController.swift */,
 				3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */,
+				3CB89B3D1ADA184900FA7B51 /* SuitcaseTableViewController.swift */,
+				3CB89B3F1ADA187600FA7B51 /* HandbagTableViewController.swift */,
 			);
 			path = TravelMaa;
 			sourceTree = "<group>";
@@ -226,10 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB89B3E1ADA184900FA7B51 /* SuitcaseTableViewController.swift in Sources */,
 				3CB89B3A1AD9FB6700FA7B51 /* FinalViewController.swift in Sources */,
 				45D61A321AD9052300A6E0C9 /* YourSuitcaseViewController.swift in Sources */,
 				45D61A2E1AD9052300A6E0C9 /* AppDelegate.swift in Sources */,
 				45D61A301AD9052300A6E0C9 /* YourJourneyViewController.swift in Sources */,
+				3CB89B401ADA187600FA7B51 /* HandbagTableViewController.swift in Sources */,
 				3CB89B381AD9E2C500FA7B51 /* PurposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
