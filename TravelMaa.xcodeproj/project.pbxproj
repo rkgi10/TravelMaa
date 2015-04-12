@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB89B381AD9E2C500FA7B51 /* PurposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B371AD9E2C500FA7B51 /* PurposeViewController.swift */; };
+		3CB89B3A1AD9FB6700FA7B51 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */; };
 		45D61A2E1AD9052300A6E0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A2D1AD9052300A6E0C9 /* AppDelegate.swift */; };
 		45D61A301AD9052300A6E0C9 /* YourJourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A2F1AD9052300A6E0C9 /* YourJourneyViewController.swift */; };
 		45D61A321AD9052300A6E0C9 /* YourSuitcaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61A311AD9052300A6E0C9 /* YourSuitcaseViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CB89B371AD9E2C500FA7B51 /* PurposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurposeViewController.swift; sourceTree = "<group>"; };
+		3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		45D61A281AD9052200A6E0C9 /* TravelMaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D61A2C1AD9052300A6E0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45D61A2D1AD9052300A6E0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				45D61A361AD9052300A6E0C9 /* Images.xcassets */,
 				45D61A381AD9052300A6E0C9 /* LaunchScreen.xib */,
 				45D61A2B1AD9052300A6E0C9 /* Supporting Files */,
+				3CB89B371AD9E2C500FA7B51 /* PurposeViewController.swift */,
+				3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */,
 			);
 			path = TravelMaa;
 			sourceTree = "<group>";
@@ -220,9 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB89B3A1AD9FB6700FA7B51 /* FinalViewController.swift in Sources */,
 				45D61A321AD9052300A6E0C9 /* YourSuitcaseViewController.swift in Sources */,
 				45D61A2E1AD9052300A6E0C9 /* AppDelegate.swift in Sources */,
 				45D61A301AD9052300A6E0C9 /* YourJourneyViewController.swift in Sources */,
+				3CB89B381AD9E2C500FA7B51 /* PurposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
