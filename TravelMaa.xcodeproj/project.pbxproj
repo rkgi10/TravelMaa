@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB1A5411ADA28D400325F14 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A5401ADA28D400325F14 /* InitialViewController.swift */; };
 		3CB89B381AD9E2C500FA7B51 /* PurposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B371AD9E2C500FA7B51 /* PurposeViewController.swift */; };
 		3CB89B3A1AD9FB6700FA7B51 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */; };
 		3CB89B3E1ADA184900FA7B51 /* SuitcaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB89B3D1ADA184900FA7B51 /* SuitcaseTableViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CB1A5401ADA28D400325F14 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		3CB89B371AD9E2C500FA7B51 /* PurposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurposeViewController.swift; sourceTree = "<group>"; };
 		3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		3CB89B3D1ADA184900FA7B51 /* SuitcaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuitcaseTableViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				3CB89B391AD9FB6700FA7B51 /* FinalViewController.swift */,
 				3CB89B3D1ADA184900FA7B51 /* SuitcaseTableViewController.swift */,
 				3CB89B3F1ADA187600FA7B51 /* HandbagTableViewController.swift */,
+				3CB1A5401ADA28D400325F14 /* InitialViewController.swift */,
 			);
 			path = TravelMaa;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				45D61A301AD9052300A6E0C9 /* YourJourneyViewController.swift in Sources */,
 				3CB89B401ADA187600FA7B51 /* HandbagTableViewController.swift in Sources */,
 				3CB89B381AD9E2C500FA7B51 /* PurposeViewController.swift in Sources */,
+				3CB1A5411ADA28D400325F14 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
